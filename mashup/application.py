@@ -11,8 +11,8 @@ app = Flask(__name__)
 # Configure CS50 Library to use SQLite database
 db = SQL("sqlite:///mashup.db")
 
-
-#export API_KEY=AIzaSyBCqIq4ANjIYmE88QO_91_SNBmvR8Fb4lk
+#use this command to initialise your API key
+#export API_KEY=Enter your Google API key
 
 # Ensure responses aren't cached
 @app.after_request
